@@ -1,0 +1,23 @@
+pkgbase = pyfa-git
+	pkgdesc = EVE Online Fitting Assistant
+	pkgver = 1.2.1.r11.g009956c
+	pkgrel = 1
+	epoch = 2
+	url = https://github.com/DarkFenX/Pyfa
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = python2
+	depends = wxpython2.8
+	depends = python2-sqlalchemy
+	depends = python2-numpy
+	depends = python2-dateutil
+	conflicts = pyfa
+	conflicts = pyfa2-git
+	source = pyfa.desktop
+	source = pyfa-icon.png
+	source = pyfa-start.sh
+	source = pyfa::git://github.com/DarkFenX/Pyfa.git
+
+pkgname = pyfa-git
+
